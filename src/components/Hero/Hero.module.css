@@ -1,0 +1,73 @@
+
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.heroContainer{
+    height: 100vh;
+    width: 100%;
+    background: #640ad2b3;
+    position: absolute;
+}
+.carousel{
+    width: 100%;
+    height: 70vh;
+    padding: 5rem;
+    padding-top: 10rem;
+}
+.captionBox{
+    width: 100%;
+    height: 30vh;
+}
+.box{
+    width: 27%;
+    height: 30vh;
+    background: rgba(100, 10, 210, 0.2);
+    float: left;
+    backdrop-filter: blur(6px);
+   padding: 1rem;
+    align-content: center;
+    align-items: center;
+}
+
+.box img{
+    width: 80%;
+    margin: 0 auto;
+  max-height: 25vh;
+}
+.smbox{
+    width: 24.3%;
+    height: 30vh;
+    background: rgba(100, 10, 210, 0.2);
+    float: left;
+    backdrop-filter: blur(6px);
+}
+.smbox h2{
+    line-height: 2.5rem;
+}
+.smbanner h3{
+    text-align: center;
+}
+.smBanner{
+    width: 100%;
+    height: 10vh;
+    padding: .5rem;
+}
+.smBannerText{
+    width: 100%;
+    height: 20vh;
+  padding: 1rem;
+  background: #640ad2;
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+}
+.heroContainer h1{
+    font-weight: normal;
+}
